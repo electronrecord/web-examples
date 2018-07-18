@@ -29,7 +29,9 @@
       "plugin:vue/essential",
       "@vue/standard"
     ],
-    "rules": {},
+    "rules": {
+      "indent": "off"
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }

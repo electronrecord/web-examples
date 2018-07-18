@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
-import About from './views/About.vue'
+import AnimatedSlider from './views/AnimatedSlider.vue'
 
 Vue.use(Router)
 
@@ -9,13 +8,12 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
+      redirect: 'animated-slider'
     },
     {
-      path: '/about',
-      name: 'about',
-      component: About
+      path: '/animated-slider',
+      name: 'animated-slider',
+      component: AnimatedSlider
     }
   ]
 })
