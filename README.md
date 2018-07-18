@@ -5,3 +5,4 @@ This is a open project with examples of case studies from more tutorial websites
 
 Modules:
 Animated-Slider
+https://electronlabs.ro/#/animated-slider
